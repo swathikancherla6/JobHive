@@ -1,0 +1,26 @@
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+margin-top: 10px;
+height: 40px;  
+width: auto;   
+transition: transform 0.3s ease; 
+}
+ 
+.nav-logo img:hover {
+    transform: scale(1.1); 
+}
+
+.nav-logo p {
+    color: #0818aa; 
+    font-weight: bold; 
+    font-size: 30px; 
+    transition: color 0.3s ease; 
+    margin-left: -5px;
+}
+  
+.nav-logo p:hover {
+    color: #3f50eb; 
+    transform: scale(1.1);
+}
